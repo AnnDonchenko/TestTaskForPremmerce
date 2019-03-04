@@ -1,3 +1,95 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
-  background-color: green;
-  color: #fff; }
+  background-color: #ffffff;
+  font-family: Tahoma, Verdana, Geneva, sans-serif; }
+
+.wrap {
+  width: 100%;
+  max-width: 842px;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0; }
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+  margin-left: 30px; }
+  .nav__link:hover {
+    color: #da4137; }
+
+.news {
+  background-color: #f0f0f0;
+  padding: 20px 30px;
+  display: flex; }
+  .news__img {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25); }
+  .news__info {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .news__title {
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #000000; }
+  .news__text {
+    color: #8d8d8d;
+    font-size: 14px;
+    line-height: 20px; }
+  .news__btn {
+    height: 29px;
+    width: 118px;
+    background-color: #da4137;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    background-image: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.2) 100%); }
+    .news__btn:hover {
+      background-image: none;
+      cursor: pointer; }
+
+.features {
+  padding: 20px 0; }
+  .features__item-indent {
+    padding-bottom: 20px; }
+
+.feature__title {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  padding-bottom: 10px; }
+
+.feature__text {
+  color: #8d8d8d;
+  font-size: 14px;
+  line-height: 20px; }
+
+.intentions {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0; }
+  .intentions__item {
+    width: 24%; }
+
+.intention {
+  display: flex;
+  align-items: center; }
+  .intention__img {
+    margin: 15px; }
+  .intention__text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    font-style: italic;
+    font-family: "Times New Romam"; }
